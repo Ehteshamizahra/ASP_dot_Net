@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8e2jUuTVBV43YdbCQdHlVr6KHryqvaxp7QdZUwwI2jirGu/YH4Jy+FrhGbFRruZeLJY6/dAu2iE/k3k+zmn/BA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zehtesha\\OneDrive - JNJ\\MyData@H\\Docs\\The_Tech_Academy\\ASP_dot_Net\\Assignment\\WebAppTutorial\\WebAppTutorial.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zehtesha\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
