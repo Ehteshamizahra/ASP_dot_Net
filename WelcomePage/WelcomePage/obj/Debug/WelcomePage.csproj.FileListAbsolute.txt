@@ -1,0 +1,7 @@
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\WelcomePage\WelcomePage\bin\Debug\WelcomePage.exe.config
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\WelcomePage\WelcomePage\bin\Debug\WelcomePage.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\WelcomePage\WelcomePage\bin\Debug\WelcomePage.pdb
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\WelcomePage\WelcomePage\obj\Debug\WelcomePage.csproj.AssemblyReference.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\WelcomePage\WelcomePage\obj\Debug\WelcomePage.csproj.CoreCompileInputs.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\WelcomePage\WelcomePage\obj\Debug\WelcomePage.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\WelcomePage\WelcomePage\obj\Debug\WelcomePage.pdb
