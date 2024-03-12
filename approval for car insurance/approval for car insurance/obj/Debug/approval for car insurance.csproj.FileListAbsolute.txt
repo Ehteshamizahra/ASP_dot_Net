@@ -1,0 +1,7 @@
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\approval for car insurance\approval for car insurance\bin\Debug\approval for car insurance.exe.config
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\approval for car insurance\approval for car insurance\bin\Debug\approval for car insurance.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\approval for car insurance\approval for car insurance\bin\Debug\approval for car insurance.pdb
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\approval for car insurance\approval for car insurance\obj\Debug\approval for car insurance.csproj.AssemblyReference.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\approval for car insurance\approval for car insurance\obj\Debug\approval for car insurance.csproj.CoreCompileInputs.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\approval for car insurance\approval for car insurance\obj\Debug\approval for car insurance.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\approval for car insurance\approval for car insurance\obj\Debug\approval for car insurance.pdb
