@@ -1,0 +1,7 @@
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Anonymous income comparison\Anonymous income comparison\bin\Debug\Anonymous income comparison.exe.config
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Anonymous income comparison\Anonymous income comparison\bin\Debug\Anonymous income comparison.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Anonymous income comparison\Anonymous income comparison\bin\Debug\Anonymous income comparison.pdb
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Anonymous income comparison\Anonymous income comparison\obj\Debug\Anonymous income comparison.csproj.AssemblyReference.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Anonymous income comparison\Anonymous income comparison\obj\Debug\Anonymous income comparison.csproj.CoreCompileInputs.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Anonymous income comparison\Anonymous income comparison\obj\Debug\Anonymous income comparison.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Anonymous income comparison\Anonymous income comparison\obj\Debug\Anonymous income comparison.pdb
