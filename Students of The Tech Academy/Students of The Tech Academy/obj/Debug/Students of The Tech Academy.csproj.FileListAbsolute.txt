@@ -1,0 +1,6 @@
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Students of The Tech Academy\Students of The Tech Academy\bin\Debug\Students of The Tech Academy.exe.config
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Students of The Tech Academy\Students of The Tech Academy\bin\Debug\Students of The Tech Academy.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Students of The Tech Academy\Students of The Tech Academy\bin\Debug\Students of The Tech Academy.pdb
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Students of The Tech Academy\Students of The Tech Academy\obj\Debug\Students of The Tech Academy.csproj.CoreCompileInputs.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Students of The Tech Academy\Students of The Tech Academy\obj\Debug\Students of The Tech Academy.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Students of The Tech Academy\Students of The Tech Academy\obj\Debug\Students of The Tech Academy.pdb
