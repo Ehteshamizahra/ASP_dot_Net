@@ -8,7 +8,7 @@ class Program
     {
         Console.WriteLine("Anonymous Income Comparison Program");
         
-        //Aquire the salary details from person 1 and 2
+        //Obtain the salary details from person 1 and 2
         Console.WriteLine("Person 1");
         Console.WriteLine("What is your Hourly Rate?");
         string person1_rate = Console.ReadLine();
