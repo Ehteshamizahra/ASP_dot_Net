@@ -1,0 +1,7 @@
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Shipping quote for a package\Shipping quote for a package\bin\Debug\Shipping quote for a package.exe.config
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Shipping quote for a package\Shipping quote for a package\bin\Debug\Shipping quote for a package.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Shipping quote for a package\Shipping quote for a package\bin\Debug\Shipping quote for a package.pdb
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Shipping quote for a package\Shipping quote for a package\obj\Debug\Shipping quote for a package.csproj.AssemblyReference.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Shipping quote for a package\Shipping quote for a package\obj\Debug\Shipping quote for a package.csproj.CoreCompileInputs.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Shipping quote for a package\Shipping quote for a package\obj\Debug\Shipping quote for a package.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Shipping quote for a package\Shipping quote for a package\obj\Debug\Shipping quote for a package.pdb
