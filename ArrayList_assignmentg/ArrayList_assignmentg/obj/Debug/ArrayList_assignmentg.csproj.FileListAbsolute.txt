@@ -1,0 +1,7 @@
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\ArrayList_assignmentg\ArrayList_assignmentg\bin\Debug\ArrayList_assignmentg.exe.config
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\ArrayList_assignmentg\ArrayList_assignmentg\bin\Debug\ArrayList_assignmentg.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\ArrayList_assignmentg\ArrayList_assignmentg\bin\Debug\ArrayList_assignmentg.pdb
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\ArrayList_assignmentg\ArrayList_assignmentg\obj\Debug\ArrayList_assignmentg.csproj.AssemblyReference.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\ArrayList_assignmentg\ArrayList_assignmentg\obj\Debug\ArrayList_assignmentg.csproj.CoreCompileInputs.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\ArrayList_assignmentg\ArrayList_assignmentg\obj\Debug\ArrayList_assignmentg.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\ArrayList_assignmentg\ArrayList_assignmentg\obj\Debug\ArrayList_assignmentg.pdb
