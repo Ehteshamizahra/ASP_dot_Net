@@ -1,0 +1,7 @@
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Console_App_Assignment\Console_App_Assignment\bin\Debug\Console_App_Assignment.exe.config
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Console_App_Assignment\Console_App_Assignment\bin\Debug\Console_App_Assignment.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Console_App_Assignment\Console_App_Assignment\bin\Debug\Console_App_Assignment.pdb
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Console_App_Assignment\Console_App_Assignment\obj\Debug\Console_App_Assignment.csproj.AssemblyReference.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Console_App_Assignment\Console_App_Assignment\obj\Debug\Console_App_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Console_App_Assignment\Console_App_Assignment\obj\Debug\Console_App_Assignment.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Console_App_Assignment\Console_App_Assignment\obj\Debug\Console_App_Assignment.pdb
