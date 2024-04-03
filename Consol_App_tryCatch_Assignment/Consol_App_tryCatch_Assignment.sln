@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34407.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consol_App_tryCatch_Assignment", "Consol_App_tryCatch_Assignment\Consol_App_tryCatch_Assignment.csproj", "{C213D752-F65B-4890-9336-506AFE851095}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C213D752-F65B-4890-9336-506AFE851095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C213D752-F65B-4890-9336-506AFE851095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C213D752-F65B-4890-9336-506AFE851095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C213D752-F65B-4890-9336-506AFE851095}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FA6C309-6CBB-4C55-B28E-B48289029235}
+	EndGlobalSection
+EndGlobal

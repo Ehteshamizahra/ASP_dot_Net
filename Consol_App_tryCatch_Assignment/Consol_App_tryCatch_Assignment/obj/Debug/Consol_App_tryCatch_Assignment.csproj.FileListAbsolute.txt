@@ -1,0 +1,7 @@
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Consol_App_tryCatch_Assignment\Consol_App_tryCatch_Assignment\bin\Debug\Consol_App_tryCatch_Assignment.exe.config
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Consol_App_tryCatch_Assignment\Consol_App_tryCatch_Assignment\bin\Debug\Consol_App_tryCatch_Assignment.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Consol_App_tryCatch_Assignment\Consol_App_tryCatch_Assignment\bin\Debug\Consol_App_tryCatch_Assignment.pdb
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Consol_App_tryCatch_Assignment\Consol_App_tryCatch_Assignment\obj\Debug\Consol_App_tryCatch_Assignment.csproj.AssemblyReference.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Consol_App_tryCatch_Assignment\Consol_App_tryCatch_Assignment\obj\Debug\Consol_App_tryCatch_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Consol_App_tryCatch_Assignment\Consol_App_tryCatch_Assignment\obj\Debug\Consol_App_tryCatch_Assignment.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Consol_App_tryCatch_Assignment\Consol_App_tryCatch_Assignment\obj\Debug\Consol_App_tryCatch_Assignment.pdb
