@@ -1,0 +1,7 @@
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\blackJack_game\blackJack_game\obj\Debug\blackJack_game.csproj.AssemblyReference.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\blackJack_game\blackJack_game\obj\Debug\blackJack_game.csproj.CoreCompileInputs.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\blackJack_game\blackJack_game\bin\Debug\blackJack_game.exe.config
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\blackJack_game\blackJack_game\bin\Debug\blackJack_game.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\blackJack_game\blackJack_game\bin\Debug\blackJack_game.pdb
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\blackJack_game\blackJack_game\obj\Debug\blackJack_game.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\blackJack_game\blackJack_game\obj\Debug\blackJack_game.pdb

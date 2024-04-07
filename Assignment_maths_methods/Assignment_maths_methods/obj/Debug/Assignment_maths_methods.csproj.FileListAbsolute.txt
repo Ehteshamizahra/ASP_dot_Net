@@ -1,0 +1,7 @@
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment_maths_methods\Assignment_maths_methods\bin\Debug\Assignment_maths_methods.exe.config
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment_maths_methods\Assignment_maths_methods\bin\Debug\Assignment_maths_methods.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment_maths_methods\Assignment_maths_methods\bin\Debug\Assignment_maths_methods.pdb
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment_maths_methods\Assignment_maths_methods\obj\Debug\Assignment_maths_methods.csproj.AssemblyReference.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment_maths_methods\Assignment_maths_methods\obj\Debug\Assignment_maths_methods.csproj.CoreCompileInputs.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment_maths_methods\Assignment_maths_methods\obj\Debug\Assignment_maths_methods.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment_maths_methods\Assignment_maths_methods\obj\Debug\Assignment_maths_methods.pdb
