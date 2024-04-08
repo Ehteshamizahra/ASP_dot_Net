@@ -25,7 +25,7 @@ namespace Assignment_void_method
         public class birds
 
         {
-            //CReate a void method with two inputs
+            //Create a void method with two inputs
             public static void mathsOp(int input1, int input2)
             {
                 int result = (int)Math.Log10(input1);
