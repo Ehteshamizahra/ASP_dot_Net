@@ -13,7 +13,9 @@ namespace Assignment_void_method
             birds bird = new birds();
             int input1 = 1;
             int input2 = 2;
-            bird = mathsOp(input1:input1, input2:input2);
+            birds.mathsOp(input1:input1, input2:input2);
+
+            Console.ReadLine();
         }
 
         public class birds
