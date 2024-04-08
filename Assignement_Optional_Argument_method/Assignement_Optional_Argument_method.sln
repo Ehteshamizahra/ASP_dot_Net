@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34407.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignement_Optional_Argument_method", "Assignement_Optional_Argument_method\Assignement_Optional_Argument_method.csproj", "{F1072798-6664-453A-815A-FF0E566BE0DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1072798-6664-453A-815A-FF0E566BE0DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1072798-6664-453A-815A-FF0E566BE0DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1072798-6664-453A-815A-FF0E566BE0DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1072798-6664-453A-815A-FF0E566BE0DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB816CCB-8B25-4275-BF09-15B2E3368B98}
+	EndGlobalSection
+EndGlobal
