@@ -10,6 +10,8 @@ namespace Assignement_Optional_Argument_method
     {
         static void Main(string[] args)
         {
+            //Instantiate the bird class
+            birds bird = new birds();
             //Aquire a maximum range to generate a random number for the user            
             Console.WriteLine("Enter a max range for random value generation from 0-50:");
             int max=Convert.ToInt32(Console.ReadLine());
@@ -20,14 +22,14 @@ namespace Assignement_Optional_Argument_method
             //If the user doesn't select a count for the roundom number, call the random number generator without the optional count, and display the value
             if (string.IsNullOrEmpty(countRan))
             {
-                List<int> newList = randomNumber(max);
+                List<int> newList = birds.randomNumber(max);
                 Console.WriteLine(string.Join(", ", newList));
             }
             //If the user selects a count for the roundom number, call the random number generator and display the list of the generated random numbers
             else
             {
                 int countRan1 = Convert.ToInt32(countRan);
-                List<int> newList = randomNumber(max, countRan1);
+                List<int> newList = birds.randomNumber(max, countRan1);
                 Console.WriteLine(string.Join(", ", newList) );
             }
             Console.ReadLine();
@@ -35,20 +37,23 @@ namespace Assignement_Optional_Argument_method
         }
 
         //Create a random number generator method which requires a maximum value to set the range and an optional count for the number of random values.
-
-        public static List<int> randomNumber(int max, int countRan = 1)
-
+        public class birds
         {
-            Random random = new Random();
-            List<int> randomList = new List<int> { };
+            public static List<int> randomNumber(int max, int countRan = 1)
 
-            for (int i=0; i< countRan; i++)
             {
-                int randomValue = random.Next(0, max);
-                randomList.Add(randomValue);
+                Random random = new Random();
+                List<int> randomList = new List<int> { };
+
+                for (int i = 0; i < countRan; i++)
+                {
+                    int randomValue = random.Next(0, max);
+                    randomList.Add(randomValue);
+                }
+                return randomList;
+
             }
-            return randomList;
-        
         }
+
     }
 }

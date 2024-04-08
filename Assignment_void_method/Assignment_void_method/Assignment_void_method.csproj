@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{148B7623-2DAB-4D6B-A71A-03FB49CFF280}</ProjectGuid>
+    <ProjectGuid>{5341AADA-79A2-4EAB-9D78-7D778959B063}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Assignment_maths_methods</RootNamespace>
-    <AssemblyName>Assignment_maths_methods</AssemblyName>
+    <RootNamespace>Assignment_void_method</RootNamespace>
+    <AssemblyName>Assignment_void_method</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="birds.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
