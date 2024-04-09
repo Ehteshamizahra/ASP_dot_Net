@@ -28,10 +28,10 @@ namespace blackJack_game
             }
         }
 
-        public List<Card> Cards { get; set; }
+        public List<Card> Cards { get; set; } //Cards property
 
         //Creating a method to allow shuffle the deck of cards
-        public void Shuffle(int times = 1)   //public: so it's accassable, Void: as we don't return anything. it does it internally.
+        public void Shuffle(int times = 1)   //public: so it's accessible, Void: as we don't return anything. it does it internally.
                                                                                       //Deck: That's the type of data it's returing, Shuffle: the name of the function,
                                                                                       //Deck deck: takes a prameter of types Deck with variable named deck
                                                                                       //out int timeshuffled: 

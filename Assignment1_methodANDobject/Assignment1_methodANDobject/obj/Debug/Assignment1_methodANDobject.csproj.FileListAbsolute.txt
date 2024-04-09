@@ -1,0 +1,7 @@
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment1_methodANDobject\Assignment1_methodANDobject\bin\Debug\Assignment1_methodANDobject.exe.config
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment1_methodANDobject\Assignment1_methodANDobject\bin\Debug\Assignment1_methodANDobject.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment1_methodANDobject\Assignment1_methodANDobject\bin\Debug\Assignment1_methodANDobject.pdb
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment1_methodANDobject\Assignment1_methodANDobject\obj\Debug\Assignment1_methodANDobject.csproj.AssemblyReference.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment1_methodANDobject\Assignment1_methodANDobject\obj\Debug\Assignment1_methodANDobject.csproj.CoreCompileInputs.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment1_methodANDobject\Assignment1_methodANDobject\obj\Debug\Assignment1_methodANDobject.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment1_methodANDobject\Assignment1_methodANDobject\obj\Debug\Assignment1_methodANDobject.pdb

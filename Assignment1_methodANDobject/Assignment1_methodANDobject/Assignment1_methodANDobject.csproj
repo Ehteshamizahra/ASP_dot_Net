@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F6959135-4913-42F0-9F35-C71FE8428A67}</ProjectGuid>
+    <ProjectGuid>{1284B3BD-A364-4865-ABF0-0D912E825738}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>blackJack_game</RootNamespace>
-    <AssemblyName>blackJack_game</AssemblyName>
+    <RootNamespace>Assignment1_methodANDobject</RootNamespace>
+    <AssemblyName>Assignment1_methodANDobject</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Card.cs" />
-    <Compile Include="Deck.cs" />
-    <Compile Include="Game.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TwentyOneGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
