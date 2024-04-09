@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace blackJack_game
 {
-    class TwentyOneGame : Game  //Inheretance is one of the three pillars of object oriented programing.
+    //INheritance from a base class and an interface
+    class TwentyOneGame : Game, IWalkAway  //Inheretance is one of the three pillars of object oriented programing.
     {
         //override method to the abstract MethodAccessException in Game  class
         public override void Play()
@@ -17,6 +18,12 @@ namespace blackJack_game
         {
             Console.WriteLine("21 players: ");
             base.ListPlayers();
+        }
+
+        //Implementing interface walkAway method
+        public void walkAway(Player player)
+        {
+            throw new NotImplementedException();
         }
 
 

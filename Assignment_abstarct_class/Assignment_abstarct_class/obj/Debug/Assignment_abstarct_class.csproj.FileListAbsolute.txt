@@ -1,0 +1,7 @@
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment_abstarct_class\Assignment_abstarct_class\bin\Debug\Assignment_abstarct_class.exe.config
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment_abstarct_class\Assignment_abstarct_class\bin\Debug\Assignment_abstarct_class.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment_abstarct_class\Assignment_abstarct_class\bin\Debug\Assignment_abstarct_class.pdb
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment_abstarct_class\Assignment_abstarct_class\obj\Debug\Assignment_abstarct_class.csproj.AssemblyReference.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment_abstarct_class\Assignment_abstarct_class\obj\Debug\Assignment_abstarct_class.csproj.CoreCompileInputs.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment_abstarct_class\Assignment_abstarct_class\obj\Debug\Assignment_abstarct_class.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment_abstarct_class\Assignment_abstarct_class\obj\Debug\Assignment_abstarct_class.pdb

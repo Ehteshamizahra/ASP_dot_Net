@@ -16,8 +16,14 @@ namespace Assignment_abstarct_class
             employee.firstName = "Sample";
             employee.lastName = "Student";
 
+            //Asignment_abstract_class
             //Call the SayName() method
             employee.SayName();
+
+            //Assignment_polymorphism
+            //Use polymorphism to create an object of type IQuittable and call the Quit() method on it
+            employee.Quit();
+            Console.ReadLine();
 
         }
     }
