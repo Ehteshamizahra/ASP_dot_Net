@@ -8,6 +8,16 @@ namespace blackJack_game
 {
     class TwentyOneGame : Game  //Inheretance is one of the three pillars of object oriented programing.
     {
+        //override method to the abstract MethodAccessException in Game  class
+        public override void Play()
+        {
+            throw new NotImplementedException();
+        }
+        public override void ListPlayers()
+        {
+            Console.WriteLine("21 players: ");
+            base.ListPlayers();
+        }
 
 
     }

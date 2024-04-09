@@ -6,13 +6,18 @@ using System.Threading.Tasks;
 
 namespace blackJack_game
 {
-    public class Game
+
+    //A base class/Abstract class. We will never have an object called game
+    public abstract class Game
     {
         public List<string> Players { get; set; }
         public string Name { get; set; }
         public string Dealer { get; set; }
 
-        public void ListPlayers()
+        //Abstract method
+        public abstract void Play();
+        //Creating a method
+        public virtual void ListPlayers()
         {
             foreach(string player in Players)
             {

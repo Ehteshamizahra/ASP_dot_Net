@@ -8,6 +8,7 @@ namespace blackJack_game
 {
     public class Deck
     {
+        //Creating a constructor
         public Deck () //Constructor - used to set defult value for the class
         {
 
@@ -28,6 +29,7 @@ namespace blackJack_game
             }
         }
 
+        //Creating a property
         public List<Card> Cards { get; set; } //Cards property
 
         //Creating a method to allow shuffle the deck of cards
