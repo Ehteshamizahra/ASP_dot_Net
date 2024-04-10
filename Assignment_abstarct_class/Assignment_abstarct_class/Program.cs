@@ -22,7 +22,8 @@ namespace Assignment_abstarct_class
 
             //Assignment_polymorphism
             //Use polymorphism to create an object of type IQuittable and call the Quit() method on it
-            employee.Quit();
+            IQuittable quitingPerson = new Employee();
+            quitingPerson.Quit();
             Console.ReadLine();
 
         }

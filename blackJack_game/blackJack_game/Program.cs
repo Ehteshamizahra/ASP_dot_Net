@@ -10,6 +10,10 @@ namespace blackJack_game
     {
         static void Main(string[] args)
         {
+            ////polymorphism example
+            //List<Game> games = new List<Game>();
+            //Game game = new TwentyOneGame();
+            //games.Add(game);
 
             ////Inherentance Example 
             //TwentyOneGame game = new TwentyOneGame(); 

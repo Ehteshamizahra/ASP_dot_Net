@@ -20,7 +20,7 @@ namespace blackJack_game
             base.ListPlayers();
         }
 
-        //Implementing interface walkAway method
+        //Implementing interface walkAway method. Naming convention for Interfaces starts with I
         public void walkAway(Player player)
         {
             throw new NotImplementedException();

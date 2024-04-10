@@ -8,5 +8,7 @@ namespace blackJack_game
 {
     interface IWalkAway
     {
+        //Create a method
+        void walkAway(Player player); //No need for public as everything is public in interfaces
     }
 }
