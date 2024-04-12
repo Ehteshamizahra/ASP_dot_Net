@@ -8,6 +8,7 @@ namespace blackJack_game
 {
     public class Deck
     {
+
         //Creating a constructor
         public Deck () //Constructor - used to set defult value for the class
         {

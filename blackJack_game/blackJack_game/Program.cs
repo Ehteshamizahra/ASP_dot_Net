@@ -22,11 +22,22 @@ namespace blackJack_game
             //game.ListPlayers();//Calling superclass method: When calling a method from a class inhereting from it's calling a superclass method 
             //Console.ReadLine();
 
-            //Abstract and virtual methods
-            TwentyOneGame game = new TwentyOneGame();
-            game.Players = new List<string>() { "bob", "joe", "sarah" };
-            game.ListPlayers();
-            Console.ReadLine();
+            ////Abstract and virtual methods
+            //TwentyOneGame game = new TwentyOneGame();
+            //game.Players = new List<string>() { "bob", "joe", "sarah" };
+            //game.ListPlayers();
+            //Console.ReadLine();
+
+
+            //overloaded opeator example
+            Game game = new TwentyOneGame();
+            game.Players = new List<Player>();
+            Player player = new Player();
+            player.Name = "Jesse";
+            game = game + player; //or game +=player
+            game = game - player; //or game -=player
+
+
 
 
             Deck deckOne = new Deck();
