@@ -21,19 +21,13 @@ namespace Assignement_overload_operator
 
         public static Boolean operator ==(Employee employeeID1, Employee employeeID2)
         {
-            if (employeeID1.Equals(employeeID2))  //or if (employeeID1==(employeeID2))
-                return true;
-            else
-                return false;
+            return employeeID1 == employeeID2;
 
         }
         public static Boolean operator !=(Employee employeeID1, Employee employeeID2)
         {
 
-            if (employeeID1.Equals(employeeID2))    //or if (employeeID1!=(employeeID2))
-                return false;
-            else
-                return true;
+                return employeeID1!=employeeID2;
         }
     }
 }

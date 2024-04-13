@@ -29,15 +29,17 @@ namespace blackJack_game
             //Console.ReadLine();
 
 
-            //overloaded opeator example
-            Game game = new TwentyOneGame();
-            game.Players = new List<Player>();
-            Player player = new Player();
-            player.Name = "Jesse";
-            game = game + player; //or game +=player
-            game = game - player; //or game -=player
+            ////overloaded opeator example
+            //Game game = new TwentyOneGame();
+            //game.Players = new List<Player>();
+            //Player player = new Player();
+            //player.Name = "Jesse";
+            //game = game + player; //or game +=player
+            //game = game - player; //or game -=player
 
-
+            ////Generic class with <T> example
+            //Player<Card> player = new Player<Card>();
+            //player.Hand = new List<Card>();
 
 
             Deck deckOne = new Deck();
