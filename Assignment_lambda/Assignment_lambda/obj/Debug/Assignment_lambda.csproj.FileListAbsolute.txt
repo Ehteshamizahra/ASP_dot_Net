@@ -1,0 +1,7 @@
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment_lambda\Assignment_lambda\bin\Debug\Assignment_lambda.exe.config
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment_lambda\Assignment_lambda\bin\Debug\Assignment_lambda.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment_lambda\Assignment_lambda\bin\Debug\Assignment_lambda.pdb
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment_lambda\Assignment_lambda\obj\Debug\Assignment_lambda.csproj.AssemblyReference.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment_lambda\Assignment_lambda\obj\Debug\Assignment_lambda.csproj.CoreCompileInputs.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment_lambda\Assignment_lambda\obj\Debug\Assignment_lambda.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Assignment_lambda\Assignment_lambda\obj\Debug\Assignment_lambda.pdb

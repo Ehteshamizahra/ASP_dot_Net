@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2230BD1D-4C69-466E-8A42-8B1084D3553D}</ProjectGuid>
+    <ProjectGuid>{FCA01A6B-287B-44C6-8D31-497E72DE498C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Enum_exampleProject</RootNamespace>
-    <AssemblyName>Enum_exampleProject</AssemblyName>
+    <RootNamespace>Assignment_struct</RootNamespace>
+    <AssemblyName>Assignment_struct</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="number_strcut.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
