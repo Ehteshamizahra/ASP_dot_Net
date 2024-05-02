@@ -40,6 +40,13 @@ namespace blackJack_game
             ////Generic class with <T> example
             //Player<Card> player = new Player<Card>();
             //player.Hand = new List<Card>();
+            
+            ////Example of Enum
+            //Card card = new Card();
+            //card.suit = Card.Suit.Clubs;
+            //int underlyingValue = Convert.ToInt32(Card.Suit.Diamonds);
+            //Console.WriteLine(underlyingValue);
+            //Console.ReadLine();
 
 
             Deck deckOne = new Deck();

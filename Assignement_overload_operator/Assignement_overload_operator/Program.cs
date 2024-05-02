@@ -25,7 +25,7 @@ namespace Assignement_overload_operator
 
 
             //Use overload operator to compare the employee Ids and display the result on the console
-            Console.WriteLine(employee1.Id == employee2.Id);
+            Console.WriteLine(employee1 == employee2);
 
             Console.ReadLine();
 

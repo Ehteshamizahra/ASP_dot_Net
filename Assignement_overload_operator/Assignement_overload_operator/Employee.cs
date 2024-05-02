@@ -21,13 +21,13 @@ namespace Assignement_overload_operator
 
         public static Boolean operator ==(Employee employeeID1, Employee employeeID2)
         {
-            return employeeID1 == employeeID2;
+            return employeeID1.Id == employeeID2.Id;
 
         }
         public static Boolean operator !=(Employee employeeID1, Employee employeeID2)
         {
 
-                return employeeID1!=employeeID2;
+                return employeeID1.Id!=employeeID2.Id;
         }
     }
 }

@@ -1,0 +1,7 @@
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Enum_exampleProject\Enum_exampleProject\bin\Debug\Enum_exampleProject.exe.config
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Enum_exampleProject\Enum_exampleProject\bin\Debug\Enum_exampleProject.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Enum_exampleProject\Enum_exampleProject\bin\Debug\Enum_exampleProject.pdb
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Enum_exampleProject\Enum_exampleProject\obj\Debug\Enum_exampleProject.csproj.AssemblyReference.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Enum_exampleProject\Enum_exampleProject\obj\Debug\Enum_exampleProject.csproj.CoreCompileInputs.cache
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Enum_exampleProject\Enum_exampleProject\obj\Debug\Enum_exampleProject.exe
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\Enum_exampleProject\Enum_exampleProject\obj\Debug\Enum_exampleProject.pdb
