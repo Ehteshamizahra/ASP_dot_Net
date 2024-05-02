@@ -41,9 +41,9 @@ namespace Assignment_lambda
             //Perform the above action again, but this time with a lambda expression.
             List<Employee> employees3 = employees.Where(x => x.firstName == "Joe").ToList();
             //Using a lambda expression, make a list of all employees with an Id number greater than 5.
-            List<Employee> employees4 = employees.Where(x => x.Id >= 5).ToList();
+            List<Employee> employees4 = employees.Where(x => x.Id > 5).ToList();
             
-
+            
             Console.ReadLine();
 
 
