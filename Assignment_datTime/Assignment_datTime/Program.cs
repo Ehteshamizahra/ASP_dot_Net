@@ -18,7 +18,7 @@ namespace Assignment_datTime
             Console.WriteLine("Please enter an integer number: ");
             TimeSpan answer= TimeSpan.FromHours(Convert.ToInt32(Console.ReadLine()));
 
-            //Use the overloading operators to add the hour to teh current time and print it to the screen
+            //Use overloaded operator to add the hour to teh current time and print it to the screen
             Console.WriteLine(TimeNow+answer);
             Console.ReadLine();
         }
