@@ -28,6 +28,8 @@ namespace Assignment_Cons_ChainConstructors
             {
 
             }
+
+            //Constructor 2
             public animals(string animalName, int animalLength)
             {
                 this.animalName = "animalName";
