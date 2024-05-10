@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace blackJack_game
+namespace Casino
 {
     public struct Card //Class is made public to make it accessible
     {

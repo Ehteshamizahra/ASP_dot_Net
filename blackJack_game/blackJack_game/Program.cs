@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using Casino;
+
 
 namespace blackJack_game
 {
@@ -14,7 +16,7 @@ namespace blackJack_game
             ////example of writing to a file
             //string text = "my first file";
             //File.WriteAllText(@"C:\Users\zehtesha\OneDrive - JNJ\Desktop\log.txt", text);
-            
+
             ////polymorphism example
             //List<Game> games = new List<Game>();
             //Game game = new TwentyOneGame();
@@ -126,8 +128,10 @@ namespace blackJack_game
 
 
             //}
+            const string casinoName = "Grand Hotel and Casino";
 
-            Console.WriteLine("Welcome to the Grand Hotel and Casino. Let's start by telling me your name.");
+
+            Console.WriteLine("Welcome to the {0}. Let's start by telling me your name.",casinoName);
             string playerName = Console.ReadLine();
 
             Console.WriteLine("And how much money do you bring today?");
@@ -138,6 +142,15 @@ namespace blackJack_game
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
             {
                 Player player = new Player(playerName,bank);
+
+                player.Id = Guid.NewGuid();
+                using (StreamWriter file = new StreamWriter(@"C:\Users\zehtesha\OneDrive - JNJ\Desktop\log.txt", true))
+                {
+                    file.WriteLine(player.Id);
+
+                }
+
+
                 Game game = new TwentyOneGame();
                 game += player;
                 player.isActivelyPlaying = true;

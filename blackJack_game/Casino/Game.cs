@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace blackJack_game
+namespace Casino
 {
 
     //A base class/Abstract class. We will never have an object called game

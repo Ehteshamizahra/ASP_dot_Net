@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace blackJack_game
+namespace Casino
 {
     public class Player //Or public class Player<T> to create a generic class so this can apply to all games including the onse with no cards
 
@@ -22,6 +22,7 @@ namespace blackJack_game
         public int Balance { get; set; }
         public bool isActivelyPlaying { get; set; }
         public bool Stay { get; set; }
+        public Guid Id { get; set; }
 
         public bool Bet(int amount)
         {

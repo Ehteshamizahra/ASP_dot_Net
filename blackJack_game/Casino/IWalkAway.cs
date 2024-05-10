@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace blackJack_game
+namespace Casino.Interfaces //using a sub-namespace to organise the large code
 {
     interface IWalkAway
     {
