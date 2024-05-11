@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Casino.TwentyOne //subsection of casino, using a sub-namespace to organise the large code
 {
-    class TwentyOneDealer : Dealer
+    public class TwentyOneDealer : Dealer
     {
         public bool Stay { get; set; }
         public bool isBusted { get; set; }

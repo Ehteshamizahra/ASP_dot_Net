@@ -10,7 +10,7 @@ using Casino.TwentyOne;
 
 namespace blackJack_game
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -151,7 +151,7 @@ namespace blackJack_game
 
                 }
 
-
+                
                 Game game = new TwentyOneGame();
                 game += player;
                 player.isActivelyPlaying = true;

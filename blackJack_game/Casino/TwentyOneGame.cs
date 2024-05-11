@@ -8,7 +8,7 @@ using Casino.Interfaces;
 namespace Casino.TwentyOne //subsection of casino, using a sub-namespace to organise the large code
 {
     //Inheritance from a base class and an interface
-    class TwentyOneGame : Game, IWalkAway  //Inheretance is one of the three pillars of object oriented programing.
+    public class TwentyOneGame : Game, IWalkAway  //Inheretance is one of the three pillars of object oriented programing.
     {
         public TwentyOneDealer Dealer { get; set; }
         //override method to the abstract MethodAccessException in Game  class

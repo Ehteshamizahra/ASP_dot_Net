@@ -15,6 +15,9 @@ namespace Assignment_Cons_ChainConstructors
 
             var riverLength = new Dictionary<string, int>();//Creating a variable
 
+            animals animal1 = new animals("horse"); //Instantiating an object for constructor 1
+            animals animal2 = new animals("zebra", 4); //Instantiating an object for constructor 2
+
         }
 
         //example of chained constructors
@@ -32,8 +35,8 @@ namespace Assignment_Cons_ChainConstructors
             //Constructor 2
             public animals(string animalName, int animalLength)
             {
-                this.animalName = "animalName";
-                this.animalLength = 5;
+                this.animalName = animalName;
+                this.animalLength = animalLength;
             }
         }
     }
