@@ -135,9 +135,20 @@ namespace blackJack_game
             Console.WriteLine("Welcome to the {0}. Let's start by telling me your name.",casinoName);
             string playerName = Console.ReadLine();
 
-            Console.WriteLine("And how much money do you bring today?");
-            int bank = Convert.ToInt32(Console.ReadLine());
-            
+            //exception handling method
+            bool validAnswer = false;
+            int bank = 0;
+            while(!validAnswer) //while the validAnswer is false
+            {
+                Console.WriteLine("And how much money do you bring today?");
+                validAnswer = int.TryParse(Console.ReadLine(), out bank); //int.TryParse converts string to int, if it's successful then it throws true
+                if (!validAnswer)
+                {
+                    Console.WriteLine("Please enter digits only, no decimals");
+                }
+            }
+
+           
             Console.WriteLine("Hello, {0}, would you like to join a game of 21 righ now?", playerName);
             string answer = Console.ReadLine().ToLower();
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
@@ -157,7 +168,22 @@ namespace blackJack_game
                 player.isActivelyPlaying = true;
                 while (player.isActivelyPlaying && player.Balance> 0)
                 {
-                    game.Play();
+                    try
+                    {
+                        game.Play();
+                    }
+                    catch (FraudException)
+                    {
+                        Console.WriteLine("Security! Kick this person out!");
+                        Console.ReadLine();
+                        return; //return in a void method (void method returns nothing) it ends the method right there
+                    }
+                    catch (Exception) //all specific exceptions inhirite from 'Exception'. this is an example of plymorphisem
+                    {
+                        Console.WriteLine("An erro occured, please contact your system adminstrator");
+                        Console.ReadLine();
+                        return; //return in a void method (void method returns nothing) it ends the method right there
+                    }
                     
                 }
                 game -= player;

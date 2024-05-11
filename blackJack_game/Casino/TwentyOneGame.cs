@@ -25,11 +25,25 @@ namespace Casino.TwentyOne //subsection of casino, using a sub-namespace to orga
             Dealer.Stay = false;
             Dealer.Deck = new Deck();
             Dealer.Deck.Shuffle();
-            Console.WriteLine("Place your bet!");
 
             foreach(Player player in Players)
             {
-                int bet = Convert.ToInt32(Console.ReadLine());
+                //exception handling method
+                bool validAnswer = false;
+                int bet = 0;
+                while (!validAnswer) //while the validAnswer is false
+                {
+                    Console.WriteLine("And how much money do you bring today?");
+                    validAnswer = int.TryParse(Console.ReadLine(), out bet); //int.TryParse converts string to int, if it's successful then it throws true
+                    if (!validAnswer)
+                    {
+                        Console.WriteLine("Please enter digits only, no decimals");
+                    }
+                }
+                if (bet<0)
+                {
+                    throw new FraudException();
+                }
                 bool successfullyBet = player.Bet(bet);
 
                 if (!successfullyBet)
