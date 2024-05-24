@@ -1,0 +1,18 @@
+﻿<!-- -->
+@using TechAcadStudentsMVC.Models <!-- refer to the instructor class without prefixing it everytime with TechAcademyStudentsMvc.Models -->
+<!--Below any 'using' statements we define our model. here model means there is a model and following it is its datatype -->
+@model List<Instructor>
+
+@{
+    ViewBag.Title = "Instructors";
+}
+
+<h2>Instructors</h2>
+<!-- once declaring the model at the top, you can reference it anywhere in the HTML with the word Model-->
+@{
+    foreach (Instructor instructor in Model)
+    {
+        <h4>@instructor.FirstName</h4>
+    }
+}
+

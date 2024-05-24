@@ -42,7 +42,7 @@ namespace Casino.TwentyOne //subsection of casino, using a sub-namespace to orga
                 }
                 if (bet<0)
                 {
-                    throw new FraudException();
+                    throw new FraudException("Hey Security! Cick this person out!"); //The message will get passed to teh database
                 }
                 bool successfullyBet = player.Bet(bet);
 

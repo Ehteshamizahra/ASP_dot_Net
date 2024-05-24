@@ -1,0 +1,26 @@
+﻿<div class="row no-gutters m-3">
+    <div class="card col-sm-12 col-md-10 col-lg-6 mx-auto shadow"> <!--Card a new bootstrap class where we put our newsletter form in, col-sm/md/lg-12: create 12 columns on small screens like phoen, 10 on midium and 6 on large, mx-auto:margin on xaxis centred so set to auto, shadow:box shadow -->
+        <dic class="card-header text-center">
+            <h5 class="m-0">Sign up to our newsletter</h5> <!--Set margin on the H5 tag to zero-->
+        </dic>
+        <div class="card-body"><!--Where our form will go-->
+            @using (Html.BeginForm("SignUp", "Home", FormMethod.Post)) //short tag that creates complicated html. All this is doing is generating some form tag with some atribute inside of it
+            {
+            <div class="row no-gutters" > <!--no-gutters: when using columns tags they have 15 pixles on each sides. If use no-gutters it removes that property-->
+                <div class="form-group col-md-12">
+                    <input name="FirstName" type="text" class="form-control" placeholder="First Name"/>
+                </div>
+                <div class="form-group col-md-12">
+                    <input name="LastName" type="text" class="form-control" placeholder="Last Name" />
+                </div>
+                <div class="form-group col-md-12">
+                    <input name="EmailAddress" type="email" class="form-control" placeholder="Email Address"/>
+                </div>
+                <botton type="submit" class="btn btn-block btn-primary">Submit</botton> <!--btn-block:takes up the entire row, btn-primaryt: primary colour-->
+            </div>
+
+            }
+        
+        </div>
+    </div>
+</div>

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 using System.IO;
 using Casino;
 using Casino.TwentyOne;
-
+using System.Data.SqlClient;
+using System.Data;
 
 namespace blackJack_game
 {
@@ -135,6 +136,21 @@ namespace blackJack_game
             Console.WriteLine("Welcome to the {0}. Let's start by telling me your name.",casinoName);
             string playerName = Console.ReadLine();
 
+            if (playerName.ToLower() == "admin")
+            {
+                List<ExceptionEntity> Exceptions = ReadOnlyExceptions();
+                foreach(var exception in Exceptions)
+                {
+                    Console.Write(exception.Id + " | ");
+                    Console.Write(exception.ExceptionType + " | ");
+                    Console.Write(exception.ExceptionMessage + " | ");
+                    Console.Write(exception.TimeStamp + " | ");
+                    Console.WriteLine();
+                }
+                Console.ReadLine();
+                return;
+            }
+
             //exception handling method
             bool validAnswer = false;
             int bank = 0;
@@ -172,15 +188,17 @@ namespace blackJack_game
                     {
                         game.Play();
                     }
-                    catch (FraudException)
+                    catch (FraudException ex)
                     {
-                        Console.WriteLine("Security! Kick this person out!");
+                        Console.WriteLine(ex.Message); //The message in TwentyOneGame thrown by the exception
+                        UpdateDbWithException(ex);
                         Console.ReadLine();
                         return; //return in a void method (void method returns nothing) it ends the method right there
                     }
-                    catch (Exception) //all specific exceptions inhirite from 'Exception'. this is an example of plymorphisem
+                    catch (Exception ex) //all specific exceptions inhirite from 'Exception'. this is an example of plymorphisem
                     {
                         Console.WriteLine("An erro occured, please contact your system adminstrator");
+                        UpdateDbWithException(ex);
                         Console.ReadLine();
                         return; //return in a void method (void method returns nothing) it ends the method right there
                     }
@@ -192,6 +210,72 @@ namespace blackJack_game
             Console.WriteLine("Feel free to look around the casino. Bye for now!");
             
             Console.ReadLine();
+        }
+
+        private static void UpdateDbWithException(Exception ex) //private: so it's only accessable inside of this class
+                                                    //static: so we don't have to create a new instance of program, so it'll be similar to main 
+        {
+
+            //ADO.NET, example of openning and adding to a database
+
+            string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=
+                                        TwentyOneGame;Integrated Security=True;Connect Timeout=30;
+                                        Encrypt=False;TrustServerCertificate=False;ApplicationIntent=
+                                        ReadWrite;MultiSubnetFailover=False";//Connection string: A long string which contains information about the database instance we are trying to connect to 
+
+            string queryString = @"INSERT INTO Exceptions (ExceptionType, ExceptionMessage, TimeStamp) VALUES
+                                    (@ExceptionType, @ExceptionMessage, @TimeStamp) ";//SQL query string
+
+            using (SqlConnection connection = new SqlConnection(connectionString))//using-Managing and controlling memmory when dealing with external resources. Here we close the resource when we exit the curley braces 
+            {
+                SqlCommand command = new SqlCommand(queryString, connection);
+                command.Parameters.Add("@ExceptionType", SqlDbType.VarChar);
+                command.Parameters.Add("@ExceptionMessage", SqlDbType.VarChar);
+                command.Parameters.Add("@TimeStamp", SqlDbType.DateTime);
+
+                command.Parameters["@ExceptionType"].Value = ex.GetType().ToString();
+                command.Parameters["@ExceptionMessage"].Value = ex.Message;
+                command.Parameters["@TimeStamp"].Value = DateTime.Now;
+
+                connection.Open();
+                command.ExecuteNonQuery(); //insert query
+                connection.Close();
+
+            }        
+        }
+
+        //ReadException Method. Example of reading from a database
+        private static List<ExceptionEntity> ReadOnlyExceptions()
+        {
+            string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=
+                                        TwentyOneGame;Integrated Security=True;Connect Timeout=30;
+                                        Encrypt=False;TrustServerCertificate=False;ApplicationIntent=
+                                        ReadWrite;MultiSubnetFailover=False";//Connection string: A long string which contains information about the database instance we are trying to connect to 
+
+            string queryString = @"Select Id, ExceptionType, ExceptionMessage, TimeStamp From Exceptions";//SQL query string
+            List<ExceptionEntity> Exceptions = new List<ExceptionEntity>();
+
+            using (SqlConnection connection = new SqlConnection(connectionString))//using-Managing and controlling memmory when dealing with external resources. Here we close the resource when we exit the curley braces 
+            {
+                //What's happening while the connection to database is open
+                SqlCommand command = new SqlCommand(queryString, connection); //New sql command object
+                connection.Open();
+
+                SqlDataReader reader = command.ExecuteReader();
+                //loop through each read we get back and for each record we create a new exception entity object 
+                while (reader.Read())
+                {
+                    ExceptionEntity exception = new ExceptionEntity();
+                    exception.Id = Convert.ToInt32(reader["Id"]);
+                    exception.ExceptionType = reader["ExceptionType"].ToString();
+                    exception.ExceptionMessage = reader["ExceptionMessage"].ToString();
+                    exception.TimeStamp = Convert.ToDateTime(reader["TimeStamp"]);
+                    Exceptions.Add(exception);
+
+                }
+                connection.Close();
+            }
+            return Exceptions; //return a list of ExceptionEntity
         }
     }
 }
