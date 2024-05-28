@@ -72,8 +72,12 @@ C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\News
 C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\NewsLetterAppMVC\NewsLetterAppMVC\bin\Newtonsoft.Json.xml
 C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\NewsLetterAppMVC\NewsLetterAppMVC\bin\Antlr3.Runtime.pdb
 C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\NewsLetterAppMVC\NewsLetterAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\NewsLetterAppMVC\NewsLetterAppMVC\obj\Debug\NewsLetterAppMVC.csproj.AssemblyReference.cache
 C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\NewsLetterAppMVC\NewsLetterAppMVC\obj\Debug\NewsLetterAppMVC.csproj.CoreCompileInputs.cache
 C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\NewsLetterAppMVC\NewsLetterAppMVC\obj\Debug\NewsLetterAppMVC.csproj.CopyComplete
 C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\NewsLetterAppMVC\NewsLetterAppMVC\obj\Debug\NewsLetterAppMVC.dll
 C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\NewsLetterAppMVC\NewsLetterAppMVC\obj\Debug\NewsLetterAppMVC.pdb
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\NewsLetterAppMVC\NewsLetterAppMVC\bin\EntityFramework.dll
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\NewsLetterAppMVC\NewsLetterAppMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\NewsLetterAppMVC\NewsLetterAppMVC\bin\EntityFramework.xml
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\NewsLetterAppMVC\NewsLetterAppMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\NewsLetterAppMVC\NewsLetterAppMVC\obj\Debug\NewsLetterAppMVC.csproj.AssemblyReference.cache
