@@ -1,0 +1,34 @@
+﻿@using NewsLetterAppMVC.Models
+@model List<NewsletterSignUp>  //list of signups rather then one signup entry
+
+
+<div class="row no-gutters m-3">
+    <div class="card col-sm-12 col-md-10 col-lg-6 mx-auto shadow">
+        <!--Card a new bootstrap class where we put our newsletter form in, col-sm/md/lg-12: create 12 columns on small screens like phoen, 10 on midium and 6 on large, mx-auto:margin on xaxis centred so set to auto, shadow:box shadow -->
+        <dic class="card-header text-center">
+            <h5 class="m-0">Sign-ups</h5> <!--Set margin on the H5 tag to zero-->
+        </dic>
+        <div class="card-body">
+            @foreach (var signup in Model)
+            {
+            <div class="row">
+                <div class="col">
+                    @signup.FirstName
+
+                </div>
+                <div class="col">
+                    @signup.LastName
+
+
+                </div>
+                <div class="col">
+                    @signup.EmailAddress
+
+
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+</div>
+

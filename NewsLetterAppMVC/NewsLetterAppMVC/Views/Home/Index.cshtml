@@ -5,6 +5,7 @@
         </dic>
         <div class="card-body"><!--Where our form will go-->
             @using (Html.BeginForm("SignUp", "Home", FormMethod.Post)) //short tag that creates complicated html. All this is doing is generating some form tag with some atribute inside of it
+                                                                        //SignUp method inside 'Home' controller
             {
             <div class="row no-gutters" > <!--no-gutters: when using columns tags they have 15 pixles on each sides. If use no-gutters it removes that property-->
                 <div class="form-group col-md-12">
@@ -16,7 +17,7 @@
                 <div class="form-group col-md-12">
                     <input name="EmailAddress" type="email" class="form-control" placeholder="Email Address"/>
                 </div>
-                <botton type="submit" class="btn btn-block btn-primary">Submit</botton> <!--btn-block:takes up the entire row, btn-primaryt: primary colour-->
+                <button type="submit" class="btn btn-block btn-primary">Submit</button> <!--btn-block:takes up the entire row, btn-primaryt: primary colour-->
             </div>
 
             }
