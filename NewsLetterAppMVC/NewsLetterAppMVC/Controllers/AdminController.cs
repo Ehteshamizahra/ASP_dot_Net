@@ -16,9 +16,10 @@ namespace NewsLetterAppMVC.Controllers
             //Entity framework which replaces the ADO.NET code commented out at the bottom
             using (NewsLetterEntities db = new NewsLetterEntities())
             {
-
-                var signups = db.SignUps; // 1)Grab all the signups from the database. This is a property in Newsletter.Context.cs. The property is the list of records in that table
-
+                //Lambda syntax or LINK
+                //var signups = db.SignUps.Where(x => x.Removed ==null).ToList(); // 1)Grab all the signups from the database. This is a property in Newsletter.Context.cs. The property is the list of records in that table
+                //OR use LINK (language Integerated query, which reads easier than the above line 
+                var signups = (from c in db.SignUps where c.Removed == null select c).ToList();
 
                 var signupVms = new List<SignupVm>(); // 2)create alist of view models
                 //Limiting the information passed to the view
