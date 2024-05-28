@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\NewsLetterAppMVC\NewsLetterAppMVC\Newsletter.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\zehtesha\OneDrive - JNJ\MyData@H\Docs\The_Tech_Academy\ASP_dot_Net\NewsLetterAppMVC\NewsLetterAppMVC\Models\Newsletter.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

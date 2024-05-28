@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NewsLetterAppMVC
+namespace NewsLetterAppMVC.Models
 {
     using System;
     using System.Collections.Generic;
@@ -18,6 +18,6 @@ namespace NewsLetterAppMVC
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string EmailAddress { get; set; }
-        public string SocialSecurityNumber { get; set; }
+        public Nullable<System.DateTime> Removed { get; set; }
     }
 }
