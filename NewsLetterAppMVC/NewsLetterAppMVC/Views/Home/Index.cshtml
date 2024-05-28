@@ -4,8 +4,8 @@
             <h5 class="m-0">Sign up to our newsletter</h5> <!--Set margin on the H5 tag to zero-->
         </dic>
         <div class="card-body"><!--Where our form will go-->
-            @using (Html.BeginForm("SignUp", "Home", FormMethod.Post)) //short tag that creates complicated html. All this is doing is generating some form tag with some atribute inside of it
-                                                                        //SignUp method inside 'Home' controller
+            @using (Html.BeginForm("SignUp", "Home", FormMethod.Post)) 
+                                                                        
             {
             <div class="row no-gutters" > <!--no-gutters: when using columns tags they have 15 pixles on each sides. If use no-gutters it removes that property-->
                 <div class="form-group col-md-12">

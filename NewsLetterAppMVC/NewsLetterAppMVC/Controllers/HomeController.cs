@@ -5,6 +5,8 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using NewsLetterAppMVC.Models;
+using NewsLetterAppMVC.ViewModels;
 
 namespace NewsLetterAppMVC.Controllers
 {
@@ -52,7 +54,7 @@ namespace NewsLetterAppMVC.Controllers
         {
             // ADO.NET which is commented out and replaced by entity framework calls
             string querystring = @"SELECT Id, FirstName, LastName, EmailAddress, SocialSecurityNumber from SignUps";
-            List<NewsLetterSignUp> signups = new List<NewsLetterSignUp>();
+            List<NewsletterSignUp> signups = new List<NewsletterSignUp>();
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -64,7 +66,7 @@ namespace NewsLetterAppMVC.Controllers
 
                 while (reader.Read())
                 {
-                    var signup = new NewsLetterSignUp();
+                    var signup = new NewsletterSignUp();
                     signup.Id = Convert.ToInt32(reader["Id"]);
                     signup.FirstName = reader["FirstName"].ToString();
                     signup.LastName = reader["LastName"].ToString();
@@ -90,5 +92,5 @@ namespace NewsLetterAppMVC.Controllers
             return View(signupVms); //pass viewmodel to the view
         }
     }
-    }
+    
 }
