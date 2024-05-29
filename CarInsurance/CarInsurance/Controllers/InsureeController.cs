@@ -50,12 +50,71 @@ namespace CarInsurance.Controllers
         {
             if (ModelState.IsValid)
             {
+                //Calculate the quote 
+                decimal quote = 50M;
+               
+                //
+                int age = (DateTime.Today).Year - insuree.DateOfBirth.Year;
+                
+                if (age <= 18)
+                {
+                    quote += 100;
+                }
+                else if (19 <= age && age <= 25)
+                {
+                    quote += 50;
+                }
+                else
+                {
+                    quote += 25;
+                }
+ 
+                int carYear = Convert.ToInt32(insuree.CarYear);
+                if (carYear<2000 || carYear>2015)
+                {
+                    quote += 25;
+                }
+
+                //If the car's Make is a Porsche and its model is a 911 Carrera, add an additional $25 to the price. (Meaning, this specific car will add a total of $50 to the price.)
+                string carMakeMatch = "Porsche";
+                string carModelMatch = "911 Carrera";
+                if (insuree.CarMake==carMakeMatch && insuree.CarModel != carModelMatch)
+                {
+                    quote += 25;
+                }
+
+                else if (insuree.CarMake == carMakeMatch && insuree.CarModel == carModelMatch)
+                {
+                    quote += 50;
+                }
+
+                //Add $10 to the monthly total for every speeding ticket the user has
+                int speedingCharge = insuree.SpeedingTickets * 10;
+                quote += speedingCharge;
+
+                //If the user has ever had a DUI, add 25% to the total.
+                decimal multiplier = 0.25M;
+                if (insuree.DUI)
+                {  
+                    quote += decimal.Multiply( quote, multiplier);
+                }
+
+                //If it's full coverage, add 50% to the total
+                multiplier = 0.50M;
+                if (insuree.CoverageType)
+                {
+                    quote += decimal.Multiply(quote, multiplier);
+                }
+
+                insuree.Quote = quote;
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
+
             return View(insuree);
+
         }
 
         // GET: Insuree/Edit/5
@@ -122,6 +181,11 @@ namespace CarInsurance.Controllers
                 db.Dispose();
             }
             base.Dispose(disposing);
+        }
+
+        public ActionResult Admin()
+        {
+            return View();
         }
     }
 }
