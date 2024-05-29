@@ -1,34 +1,53 @@
-﻿@model CarInsurance.Models.Insuree
-<div class="row no-gutters m-3">
-    <div class="card col-sm-12 col-md-10 col-lg-6 mx-auto shadow">
-        <!--Card a new bootstrap class where we put our newsletter form in, col-sm/md/lg-12: create 12 columns on small screens like phoen, 10 on midium and 6 on large, mx-auto:margin on xaxis centred so set to auto, shadow:box shadow -->
-        <dic class="card-header text-center">
-            <h5 class="m-0">Quotes</h5> <!--Set margin on the H5 tag to zero-->
-        </dic>
-        <div class="card-body">
-            @foreach (var insuree in model)
-            {
-                using (Html.BeginForm())
-                {
+﻿@model IEnumerable<CarInsurance.Models.Insuree>
 
-            <div class="row mb-3">
+@{
+    ViewBag.Title = ".Admin";
+}
 
-                <div class="col-2">
-                    @insuree.FirstName
-                </div>
-                <div class="col">
-                    @insuree.LastName
-                </div>
-                <div class="col-4">
-                    @insuree.EmailAddress
-                </div>
-                <div class="col-4">
-                    @insuree.Quote
-                </div>
+<h2>Admin</h2>
 
-            </div>
-                }
-            }
-        </div>
-    </div>
-</div>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmailAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quote)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quote)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
+

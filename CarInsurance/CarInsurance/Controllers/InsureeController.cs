@@ -89,21 +89,18 @@ namespace CarInsurance.Controllers
                 }
 
                 //Add $10 to the monthly total for every speeding ticket the user has
-                int speedingCharge = insuree.SpeedingTickets * 10;
-                quote += speedingCharge;
+                quote += insuree.SpeedingTickets * 10;
 
                 //If the user has ever had a DUI, add 25% to the total.
-                decimal multiplier = 0.25M;
                 if (insuree.DUI)
                 {  
-                    quote += decimal.Multiply( quote, multiplier);
+                    quote *=1.25M;
                 }
 
                 //If it's full coverage, add 50% to the total
-                multiplier = 0.50M;
                 if (insuree.CoverageType)
                 {
-                    quote += decimal.Multiply(quote, multiplier);
+                    quote *= 1.5M;
                 }
 
                 insuree.Quote = quote;
@@ -185,7 +182,7 @@ namespace CarInsurance.Controllers
 
         public ActionResult Admin()
         {
-            return View();
+            return View(db.Insurees.ToList());
         }
     }
 }
