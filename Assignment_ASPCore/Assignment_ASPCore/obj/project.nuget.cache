@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2Ql0GMccnZR5xt3Ol5SvzchYrXcXs0nNqQY48H+lWnuSIJ1H7YOXoYHDIkbyE7lWfpk9EKpO6wEKWTY0ZquZqg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zehtesha\\OneDrive - JNJ\\MyData@H\\Docs\\The_Tech_Academy\\ASP_dot_Net\\Assignment_ASPCore\\Assignment_ASPCore\\Assignment_ASPCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zehtesha\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
