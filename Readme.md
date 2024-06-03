@@ -1,8 +1,10 @@
-ASP.NET projects
+ASP.NET projects:
+
     Here is a list of projects I made using C# and .NET framework:
 
 
-Projects
+Projects:
+
     •	Anonymous income comparison
     •	ArrayList_assignmentg
     •	Assignment_Optical_Argument_method
@@ -37,7 +39,8 @@ Projects
     •	dotnet_core
 
 
-Projects description 
+Projects description:
+
     •	Anonymous income comparison:  A Console App example utilising comparison operators.
     •	ArrayList_assignmentg: A Console App example utilising IF/ELSE and comparison operators.
     •	Assignment_Optical_Argument_method: A Console App example utilising ‘random number generator’ method, a method with optional parameter.
